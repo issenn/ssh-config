@@ -1,0 +1,4 @@
+.ssh/id_rsa         filter=git-crypt    diff=git-crypt
+.ssh/id_rsa.pub     filter=git-crypt    diff=git-crypt
+.ssh/known_hosts    filter=git-crypt    diff=git-crypt
+.gitattributes      !filter             !diff
